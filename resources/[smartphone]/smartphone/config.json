@@ -1,0 +1,87 @@
+{
+    "token": "",
+    "client": {
+        "instagramLogo": "images/instagram_hand.png",
+        "bankLogo": "images/fleeca_hand.png",
+        "tinderLogo": "images/logo.svg",
+        "tinderFlame": "images/flame.png",
+        "apps": {
+            "whatsapp": { "name": "ZipZop", "icon": "images/whatsapp.png" },
+            "tor": { "name": "Deep Web", "icon": "images/tor.png" },
+            "instagram": { "name": "Instaban", "icon": "images/instagram.png" },
+            "bank": "images/fleeca.png",
+            "tinder": { "name": "Cupidlov", "icon": "images/tinder.png" },
+            "yellowpages": { "name": "Yellow P.", "icon": "images/yellowpages.png" },
+            "calculator": { "name": "Calculad.", "icon": "images/calculator.png" },
+            "notes": { "name": "Notas", "icon": "images/notes.png" },
+            "minesweeper": { "name": "Minadin", "icon": "images/minado.png" },
+            "truco": "images/truco.png",
+            "settings": "images/settings.png",
+            "contacts": "images/phone.png",
+            "sms": "images/sms.png",
+            "gallery": "images/gallery.png"
+          },
+        "bankType": "fleeca",
+        "uploadServer": "https://discord.com/api/webhooks/1120038819719295087/YfSpglgn9lrtp1dk3s9Tmvfnjxb15LUeEOkOLU-jDt6IXCCV9Ny7mSrNZ2d2_WlMWz1s",
+        "allowUnsafeURL": true,
+        "videoServer": "ws://:8080/",
+        "case": "s9",
+        "isAndroid": true,
+        "useGameClock": true,
+        "phone_template": "XXX-XXX",
+        "backgroundURL": "",
+        "db_driver": "oxmysql",
+        "disabledApps": ["paypal", "olx", "casino", "weazel", "twitter"],
+        "ringSound": "images/ring.ogg",
+        "notificationSound": "images/notification.ogg"
+    },
+    "exclusive": {
+        "weazel": {
+            "tags": [
+                "Noticias"
+            ],
+            "permission": "Admin"
+        },
+        "casino": {
+            "maxBet": 10000
+        }
+    },
+    "call_mode": "pma-voice",
+    "webhookURL": "https://discord.com/api/webhooks/1120038819719295087/YfSpglgn9lrtp1dk3s9Tmvfnjxb15LUeEOkOLU-jDt6IXCCV9Ny7mSrNZ2d2_WlMWz1s",
+    "instagram_verify": [
+        "Admin",
+        "Premium"
+    ],
+    "weazel_tags": "Admin",
+    "instagram_accounts": {
+        "*": 1,
+        "Admin": 2
+    },
+    "moderator": "Admin",
+    "item": "cellphone",
+    "tor_blocked": [
+        "Policia"
+    ],
+    "services": [
+        {
+            "name": "Policia",
+            "number": "911",
+            "permission": "Policia",
+            "dev": true
+        },
+        {
+            "name": "Paramédico",
+            "number": "912",
+            "permission": "Paramedico",
+            "dev": true
+        },
+        {
+            "name": "Mecânico",
+            "number": "0800 042",
+            "permission": "Mecanico",
+            "dev": true
+        }
+    ],
+    "base": "creative_extended",
+    "channel": "stable"
+}
